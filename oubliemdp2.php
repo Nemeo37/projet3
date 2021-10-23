@@ -6,6 +6,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="style1.css">
  		<title>Mot de passe oublié</title>
  	</head>
  	<body>
