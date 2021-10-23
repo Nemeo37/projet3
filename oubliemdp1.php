@@ -6,7 +6,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>test</title>
+		<link rel="stylesheet" type="text/css" href="style1.css">
+		<title>mot de passe oublié</title>
 	</head>
 	<body>
 		<?php
