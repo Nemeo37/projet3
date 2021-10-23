@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="style1.css">
 		<title>Inscription</title>
 	</head>
 	<body>
