@@ -1,0 +1,82 @@
+@media all and (max-width : 600px)
+{
+	p
+	{
+		color : black;
+	}
+
+	#acteur
+	{
+		width: 200px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+
+		padding: 20px;
+		font-size: 1.3rem;
+		margin: 0;
+		background: #fff0;
+		resize: horizontal;
+	}
+
+	#bloctete
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 40%;
+	}
+}
+
+@media all and (min-width : 601px ) and (max-width : 1220px)
+{
+	p
+	{
+		color: black;
+	}
+	#bloctete
+	{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media all and (min-width : 1221px )
+{
+	p
+	{
+		color: black;
+	}
+
+	#bloctete
+	{
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+@media all
+{
+	body
+	{
+		background-color: yellowgreen;
+	}
+
+	footer
+	{
+		text-align: center;
+		background-color: gray ;	
+	}
+
+	h4
+	{
+		text-align: center;
+	}
+
+	#comment
+	{
+		display: flex;
+		justify-content: right;
+		
+	}		
+}
