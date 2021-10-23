@@ -2,22 +2,41 @@
 {
 	p
 	{
-		color : red;
+		color : black;
 	}
 
 	#acteur
 	{
-		width: 200px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		
+	}
+	
+	.logo
+	{
+		height: 25%; 
+		width: 100%; 
+		display: block;
+		
+	}
+
+	.texte
+	{
+		width: 80%;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-
-		padding: 20px;
-		font-size: 1.3rem;
-		margin: 0;
-		background: #fff0;
-		resize: horizontal;
 	}
+
+	.bouton
+	{
+		height: 20%; 
+		width: 20%;
+		float: right;
+	}
+
 
 	#bloctete
 	{
@@ -34,11 +53,55 @@
 	{
 		color: black;
 	}
+
 	#bloctete
 	{
 		display: flex;
 		justify-content: center;
 	}
+
+	#acteur
+	{
+
+	
+		display: flex;
+		flex-direction: wrap;
+		justify-content: space-between;
+		
+		
+		
+	}
+
+	.logo
+	{
+		height: 200px; 
+		width: 350px; 
+		display: block;
+		
+	}
+
+	.texte
+	{
+		max-width: 250px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding-left: 0;
+
+
+	}
+
+	.bouton
+	{
+		height: 60px; 
+		width: 200px;
+		float: right;
+		margin-top: 80%;
+		
+		
+		
+	}
+
 }
 
 @media all and (min-width : 1221px )
@@ -53,6 +116,57 @@
 		display: flex;
 		justify-content: space-around;
 	}
+
+	#acteur
+	{
+
+	
+		display: flex;
+		
+		
+		
+		
+	}
+
+	.logo
+	{
+		height: 200px; 
+		width: 350px; 
+		display: block;
+		
+	}
+
+	.texte
+	{
+		width: 600px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding-left: 0;
+
+
+	}
+
+	.blocvide
+	{
+
+		width : 1000px;
+	}
+
+
+	.bouton
+	{
+		height: 100px; 
+		width: 200px;
+		float: right;
+		margin-top: 50%;
+		
+		
+		
+	}
+
+	
+
 }
 
 @media all
@@ -78,5 +192,11 @@
 		display: flex;
 		justify-content: right;
 		
-	}		
+	}	
+
+
+	#acteur
+	{
+		border: 5px red double;
+	}	
 }
