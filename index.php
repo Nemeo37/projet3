@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style1.css">
 		<title>Connexion</title>
 		<div id="bloctete">
 			<img src="image/logoGBAF.png" alt="Logo GBAF"  width="70px" height="70px">
