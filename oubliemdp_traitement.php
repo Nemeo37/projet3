@@ -32,7 +32,7 @@
     // si erreur d'identifiant ou de mot de passe
     	session_start();
     	$_SESSION['wrong'] = true ;
-    	header('Location: erreur.php');
+    	header('Location: index.php');
     }
 ?>
 
